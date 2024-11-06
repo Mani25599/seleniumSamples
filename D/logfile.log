@@ -1,0 +1,60 @@
+2024-10-24 17:15:37,704 INFO  [TablesHandling] Items 
+2024-10-24 17:15:37,715 INFO  [TablesHandling] Price 
+2024-10-24 17:15:41,756 WARN  [TablesHandling] there are 4rows 
+2024-10-24 17:15:41,768 WARN  [TablesHandling] Chocolate 150 
+2024-10-24 17:15:41,799 WARN  [TablesHandling] Apple 180 
+2024-10-24 17:15:41,823 WARN  [TablesHandling] Eggs 48 
+2024-10-24 17:15:41,858 WARN  [TablesHandling] Corn 480 
+2024-10-24 17:15:41,878 INFO  [TablesHandling] the sum of all numbers 858 
+2024-10-24 17:15:41,910 INFO  [TablesHandling] 858 
+2024-10-24 17:15:41,910 ERROR [TablesHandling] the total is equal to sum of numbers in table858 
+INFO - Items
+INFO - Price
+WARN - there are 4rows
+WARN - Chocolate 150
+WARN - Apple 180
+WARN - Eggs 48
+WARN - Corn 480
+INFO - the sum of all numbers 858
+INFO - 858
+ERROR - the total is equal to sum of numbers in table858
+<log4j:event logger="test.TablesHandling" timestamp="1729770968533" level="INFO" thread="main">
+<log4j:message><![CDATA[Items]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="test.TablesHandling" timestamp="1729770968544" level="INFO" thread="main">
+<log4j:message><![CDATA[Price]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="test.TablesHandling" timestamp="1729770972569" level="WARN" thread="main">
+<log4j:message><![CDATA[there are 4rows]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="test.TablesHandling" timestamp="1729770972581" level="WARN" thread="main">
+<log4j:message><![CDATA[Chocolate 150]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="test.TablesHandling" timestamp="1729770972614" level="WARN" thread="main">
+<log4j:message><![CDATA[Apple 180]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="test.TablesHandling" timestamp="1729770972639" level="WARN" thread="main">
+<log4j:message><![CDATA[Eggs 48]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="test.TablesHandling" timestamp="1729770972670" level="WARN" thread="main">
+<log4j:message><![CDATA[Corn 480]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="test.TablesHandling" timestamp="1729770972687" level="INFO" thread="main">
+<log4j:message><![CDATA[the sum of all numbers 858]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="test.TablesHandling" timestamp="1729770972717" level="INFO" thread="main">
+<log4j:message><![CDATA[858]]></log4j:message>
+</log4j:event>
+
+<log4j:event logger="test.TablesHandling" timestamp="1729770972717" level="ERROR" thread="main">
+<log4j:message><![CDATA[the total is equal to sum of numbers in table858]]></log4j:message>
+</log4j:event>
+

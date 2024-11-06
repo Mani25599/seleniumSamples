@@ -1,0 +1,10 @@
+INFO - Items
+INFO - Price
+WARN - there are 4rows
+WARN - Chocolate 150
+WARN - Apple 180
+WARN - Eggs 48
+WARN - Corn 480
+INFO - the sum of all numbers 858
+INFO - 858
+ERROR - the total is equal to sum of numbers in table858
