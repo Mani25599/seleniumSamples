@@ -21,40 +21,27 @@ public class Actionkeys {
 	}
 
 	public void gotourl() {
-		try{
 		driver.navigate().to("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 		driver.manage().window().maximize();
-	}catch(Exception e){
-			e.printStackTrace();
-		}}
+	}
 
 	public void username() {
-		try{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
 		driver.findElement(By.xpath("//input[contains(@name,'username')]")).sendKeys("Admin");
-	}catch(Exception e){
-			e.printStackTrace();
-		}}
+	}
 
 	public void password() {
-		try{driver.findElement(By.xpath("//input[contains(@name,'password')]")).sendKeys("admin123");
-		}catch(Exception e){
-			e.printStackTrace();
-		}
-
+		driver.findElement(By.xpath("//input[contains(@name,'password')]")).sendKeys("admin123");
 	}
 
 	public void loginbtn() {
-		try{
 		driver.findElement(By.tagName("button")).click();
-	}catch(Exception e){e.printStackTrace();}}
-
+	}
 
 	public void directorymenu() {
-		try{
 
 		driver.findElement(By.xpath("//a[contains(@href,'Directory')]")).click();
-	}catch(Exception e){e.printStackTrace();}}
+	}
 
 	public void jobtitle() {
 		WebElement job_search_box;
