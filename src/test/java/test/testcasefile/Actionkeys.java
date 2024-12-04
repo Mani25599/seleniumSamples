@@ -170,7 +170,7 @@ public class Actionkeys {
 	  driver.findElement(By.xpath("//button[text()=' Reset ']")).click(); }
 
 
-	public void closeweb() {
-		driver.quit();
-	}
+//	public void closeweb() {
+//		driver.quit();
+//	}
 }
